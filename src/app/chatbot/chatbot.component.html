@@ -1,0 +1,10 @@
+<div class="iframe-cb-container">
+    <div name="chatbot" *ngIf="!isShow">
+        <iframe allow="microphone;" width="350" height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/29f46d9a-5588-42b3-8184-ed7fca578772">
+        </iframe>
+    </div>
+    <button class="icon-button" mat-fab color="primary" (click)=toggleDisplay()>
+        <mat-icon aria-hidden="false" aria-label="Example home icon">chat</mat-icon>
+    </button>
+</div>
