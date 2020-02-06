@@ -4,7 +4,7 @@
             src="https://console.dialogflow.com/api-client/demo/embedded/a99b7eec-e06b-4d12-82c6-999dcdb17f72">
         </iframe>
     </div>
-    <button class="icon-button" mat-fab color="primary" (click)=toggleDisplay()>
-        <mat-icon aria-hidden="false" aria-label="Example home icon">chat</mat-icon>
+    <button class="icon-button" mat-fab color="primary" (click)="toggleDisplay(); changeIcon();" >
+        <mat-icon aria-hidden="false" aria-label="Example home icon">{{ iconName }}</mat-icon>
     </button>
 </div>
