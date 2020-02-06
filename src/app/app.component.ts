@@ -52,11 +52,11 @@ export class AppComponent {
   redirectPage(source) {
     if(source == 'workflow'){
       $(document).ready(function () {
-        $('#iframe-main').attr('src', "http://localhost:7701/1/1/workflow");
+        $('#iframe-main').attr('src', "http://localhost:7701/1/1/workflow/4/0/read");
       });
     } else {
       $(document).ready(function () {
-        window.open('http://www.youtube.com', 'mywindow', 'width=600, height=500');
+        window.open('https://www.youtube.com/embed/D8AvQ7Bdk74?autoplay=1', 'mywindow', 'width=400, height=200');
       });
     }
 
